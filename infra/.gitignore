@@ -1,0 +1,13 @@
+# Terraform 本地缓存与状态（严禁提交）
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+.init.log
+
+# 凭据文件（红线：真实 AK/SK 绝不落盘）
+credentials.csv
+*.pem
+
+# 其他
+*.zip
